@@ -8,10 +8,19 @@
 </head>
 <body>
   <div class="card">
-    <h1>🎉 Selamat Ulang Tahun 🎂</h1>
-    <p>Semoga panjang umur, sehat selalu, dan penuh kebahagiaan!</p>
-    <button onclick="playMusic()">Putar Musik 🎶</button>
+    <h1>🎉 Selamat Ulang Tahun Sayangku Cintaku ❤️🎂</h1>
+    <div id="message">Klik salah satu tombol untuk melihat pesan!</div>
+
+    <div class="buttons">
+      <button onclick="showMessage(1)">Ucapan</button>
+      <button onclick="showMessage(2)">Foto</button>
+      <button onclick="showMessage(3)">Doa</button>
+    </div>
   </div>
+
+  <!-- Musik otomatis -->
+  <audio id="birthdaySong" src="selamatulangtahun.mp3" autoplay loop></audio>
+
   <script src="script.js"></script>
 </body>
 </html>
