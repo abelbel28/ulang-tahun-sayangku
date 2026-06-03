@@ -1,0 +1,39 @@
+body {
+  background: linear-gradient(to right, #fbc2eb, #a6c1ee); /* pastel pink & blue */
+  font-family: 'Tahoma', sans-serif;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+.card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  max-width: 400px;
+  margin: auto;
+}
+
+h1 {
+  color: #ff80ab; /* pastel pink */
+}
+
+p {
+  color: #6a1b9a; /* pastel purple */
+  font-size: 18px;
+}
+
+button {
+  background: #81d4fa; /* pastel blue */
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #4fc3f7;
+}
