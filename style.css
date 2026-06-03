@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to right, #fbc2eb, #a6c1ee); /* pastel pink & blue */
+  background: linear-gradient(to right, #fbc2eb, #a6c1ee);
   font-family: 'Tahoma', sans-serif;
   text-align: center;
   padding: 20px;
@@ -16,24 +16,32 @@ body {
 }
 
 h1 {
-  color: #ff80ab; /* pastel pink */
+  color: #ff80ab;
 }
 
-p {
-  color: #6a1b9a; /* pastel purple */
+#message {
+  color: #6a1b9a;
   font-size: 18px;
+  min-height: 120px;
 }
 
 button {
-  background: #81d4fa; /* pastel blue */
-  color: white;
+  background: #81d4fa;
+  color: blue;
   border: none;
   padding: 12px 20px;
   border-radius: 10px;
   cursor: pointer;
   font-size: 16px;
+  margin: 5px;
 }
 
 button:hover {
   background: #4fc3f7;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
 }
