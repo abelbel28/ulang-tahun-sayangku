@@ -24,18 +24,8 @@ function showMessage(option) {
       Semoga bertambah usia abang ini, semua impian tercapai, selalu dipermudah di setiap langkah, 
       dan kita bisa terus bersama  dengan momen-momen indah bersama. ❤️<br><br>
       I love you more than words can express!
-    `;
+    
   } else if (option === 2) {
-    clearInterval(slideInterval);
-    let photos = ["foto1.jpg", "foto2.jpg", "foto3.jpg"]; // ganti dengan nama file foto kamu
-    message.innerHTML = `<img id="slideshow" src="${photos[0]}" alt="Foto kenangan">`;
-
-    slideIndex = 0;
-    slideInterval = setInterval(() => {
-      slideIndex = (slideIndex + 1) % photos.length;
-      document.getElementById("slideshow").src = photos[slideIndex];
-    }, 2000); // ganti foto setiap 2 detik
-  } else if (option === 3) {
     clearInterval(slideInterval);
     message.innerHTML = "🙏 Semoga Allah selalu memberkahi langkahmu, memberi kesehatan, rezeki, dan kebahagiaan sepanjang hidup.";
   }
